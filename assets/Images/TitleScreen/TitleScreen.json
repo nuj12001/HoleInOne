@@ -1,0 +1,38 @@
+{
+
+"images": [
+    "assets/Images/TitleScreen/TitleScreen.png"
+],
+
+"frames": [
+    [1, 1, 480, 854, 0, 0, 0],
+    [1, 857, 397, 307, 0, -8, -13],
+    [1, 1166, 248, 126, 0, 0, -2],
+    [251, 1166, 224, 128, 0, -15, -5],
+    [1, 1294, 78, 71, 0, -3, -28],
+    [81, 1294, 78, 71, 0, -3, -28],
+    [161, 1294, 75, 72, 0, -5, -29],
+    [400, 857, 83, 110, 0, -2, -6],
+    [400, 969, 75, 99, 0, -6, -11],
+    [400, 1070, 75, 72, 0, -5, -29]
+],
+
+"animations": {
+    "titleScreenBG": [0],
+    "HoleInOne_logo": [1],
+    "playButtonUp": [2],
+    "playButtonDown": [3],
+    "soundDownOff": [4],
+    "soundOffUp": [5],
+    "soundOnDown": [6],
+    "helpUp": [7],
+    "helpDown": [8],
+    "soundOnUp": [9]
+},
+
+"texturepacker": [
+        "SmartUpdateHash: $TexturePacker:SmartUpdate:5016e4242eed5731f403786991ca8355:b4a53c66e4ca8583f6a63081b4053fd9:b8c3fa1eced4a071a360869de65ea863$",
+        "Created with TexturePacker (https://www.codeandweb.com/texturepacker) for EaselJS"
+]
+
+}

@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8"/>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta name="viewport" content="user-scalable=no, initial-scale=1.0, maximum-scale=1.0, width=device-width" />
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+    
+    <script type="text/javascript" src = "assets/Library/jquery-2.1.4.min.js"></script>
+    <script type="text/javascript" src = "assets/Library/createjs-2015.05.21.min.js"></script>
+    <script type="text/javascript" src = "assets/Library/TweenLite.min.js"></script>
+    <script type="text/javascript" src = "assets/Library/easeljs-0.8.2.min.js"></script>
+    <script type="text/javascript" src = "assets/Library/tweenjs-0.5.0.min.js"></script>
+    
+    <script type="text/javascript" src="src/Game.js"></script>
+    <script type="text/javascript" src="src/GameConfig.js"></script>
+    <script type="text/javascript" src="src/Preloader.js"></script>
+    <script type="text/javascript" src="src/AssetsManager.js"></script>
+    
+    <script type="text/javascript" src="src/GameController.js"></script>
+    <script type="text/javascript" src="src/InGameView.js"></script>
+    
+
+    <title>Hole In One</title>
+    <script type="text/javascript">
+        var myGame;
+        function init(){
+            myGame = new MainGame();
+        }
+    </script>
+</head>
+<body onload="init()" style="background-color:#D4D4D4; margin:0;padding:0">
+	<div id="t1html5game">
+            <canvas id="canvas" >
+            </canvas>
+	</div>
+</body>
+
+
+</html>

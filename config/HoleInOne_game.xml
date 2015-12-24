@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<Assets>
+    <!-- 
+        for our Loading scene
+    -->
+    <image id="ProgressBar" src="assets/Images/LoadingScreen/ProgressBar.png" />
+    <image id="LoadingBarFilled" src="assets/Images/LoadingScreen/LoadingBarFilled.png" />
+    <image id="Loading_BG" src="assets/Images/LoadingScreen/titleScreenBG.png" />
+    <image id="Logo" src="assets/Images/LoadingScreen/HoleInOne_logo.png" />
+
+</Assets>
